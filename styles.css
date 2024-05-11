@@ -1,0 +1,179 @@
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px)
+	{
+  body, html {
+     /*padding: 3px 3px 3px 3px;
+   background-color: #D8DBE2;*/
+    font-family: Verdana, sans-serif;
+  }
+
+/*div.intro {
+	font-display: auto;
+	text-align:left;
+	font-size: 16px;
+}*/
+.bkgvideo{
+	
+	color: black;
+	position: auto;
+	/*bottom: 300px;*/
+	/*color: f1f1f1;*/
+	width: 100%;
+	height: 100%;
+	
+}
+.banner2 {
+	text-align: center;
+	font-color: white;
+	border-style: solid;
+	border-width: thin;
+	align-contect: center;
+	position: fixed;
+	bottom: 300px;
+	background: rgba(253,250,250,0.15);
+	/*color: f1f1f1;*/
+	width: 100%;
+	margin-top: 300px;
+
+}
+
+.banner2 h1 {
+	font-size: 100px;
+	color: transparent;
+	text-shadow: 0 0 5px rgba(131,246,228,0.8);
+	
+}
+
+.banner2 p {
+	font-size: 50px;
+
+	
+}
+	
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  /*align-content: center;*/
+	
+		}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) 
+{
+	
+		}
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+.banner2 {
+	text-align: center;
+	font-color: white;
+	border-style: solid;
+	border-width: thin;
+	align-contect: center;
+	position: fixed;
+	bottom: 300px;
+	background: rgba(253,250,250,0.15);
+	/*color: f1f1f1;*/
+	width: 100%;
+	margin-top: 300px;
+
+}
+
+.banner2 h1 {
+	font-size: 50px;
+	
+}
+
+.banner2 p {
+	font-size: 25px;
+	
+}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+
+	.banner2 {
+	text-align: center;
+	font-color: white;
+	border-style: solid;
+	border-width: thin;
+	align-contect: center;
+	position: fixed;
+	bottom: 300px;
+	background: rgba(253,250,250,0.15);
+	/*color: f1f1f1;*/
+	width: 100%;
+	margin-top: 300px;
+
+}
+
+.banner2 h1 {
+	font-size: 25px;
+	
+}
+
+.banner2 p {
+	font-size: 10px;
+	
+}
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+	
+}
+
+/* iPad 3 (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (-webkit-min-device-pixel-ratio : 2),
+only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (min-resolution: 192dpi) { 
+
+}
+
+
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+	
+}
+
+/* Retina displays ----------- */
+@media  only screen 
+and (-webkit-min-device-pixel-ratio : 2), 
+only screen 
+	and (min-resolution: 192dpi) {
+		
+		}	}
